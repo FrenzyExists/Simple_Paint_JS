@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dank Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="controls">
+        <input type="text" id="hex">
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <label id="color-wrapper"><input id="color" type="color"></label>
+
+        <label class="label" for="size">Size</label>
+        <input id="size" name="value" type="number" value="0" min=0>
+
+        <div class="btn">
+            <button id="minus" class="plusminus">-</button>
+            <button id="plus" class="plusminus">+</button>
+        </div>
+    </div>
+
+    <canvas id="paint_board"></canvas>
+    <script src="script.js"></script>
+</body>
+
+</html>
